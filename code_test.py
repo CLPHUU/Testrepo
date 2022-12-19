@@ -1,4 +1,4 @@
-import nump as np
+import numpy as np
 from matplotlib import pyplot as plt
 arr = np.random.rand(1,5)
 
