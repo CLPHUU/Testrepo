@@ -8,7 +8,7 @@ import math
 import random
 import matplotlib.pyplot as plt
 # create random data
-no_of_balls = 25
+no_of_balls = 250
 x = [random.triangular() for i in range(no_of_balls)]
 y = [random.gauss(0.5, 0.25) for i in range(no_of_balls)]
 colors = [random.randint(1, 4) for i in range(no_of_balls)]
